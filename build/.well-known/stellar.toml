@@ -1,0 +1,28 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="Stellarity"
+ORG_URL="https://www.stellarity.org"
+ORG_DESCRIPTION="In Stellar We Trust"
+ORG_TWITTER="@Stellarity_"
+ORG_LOGO="https://i.ibb.co/fkDv0cT/stellarity.png"
+ORG_OFFICIAL_EMAIL="stellarityorg@gmail.com"
+
+
+[[CURRENCIES]]
+code="XLS"
+issuer="GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ"
+anchor_asset="false"
+name="Stellarity"
+desc="Stellarity is a decentralized, global new cryptocurrency with qualified crypto trading groups that allows you to transfer currency with a stellar-based wallet with almost non-existent fees. Learn more about Stellarity at https://stellarity.org/"
+conditions="There will only ever be 10 million XLS tokens in existence"
+image="https://i.ibb.co/fkDv0cT/stellarity.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#XLS was issued using the open and inclusive Stellar blockchain network.
