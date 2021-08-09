@@ -4,11 +4,13 @@ module.exports = {
     title: "stellarity",
   },
   plugins: [
+    
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -17,5 +19,13 @@ module.exports = {
       },
       __key: "images",
     },
+     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown",
+        path: "./src/markdown/",
+      },
+    },
+    "gatsby-plugin-mdx"
   ],
 };
