@@ -28,13 +28,9 @@ const Header = () => {
                 <li className="menu-item menu-item-type-custom menu-item-object-custom"><a href="#documentation">Documentation</a></li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom"><a href="#our-tokens">Our tokens</a></li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom"><a href="#contact-us">Contact us</a></li>
+                <li className="menu-item menu-item-type-custom menu-item-object-custom"><a className="menu__nav__a" href="https://lobstr.co/trade/XLS:GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ"> Trade</a></li>
             </ul>
         </nav>
-        <div className="menu__extras">  
-            <a className="menu__nav__a" href="https://lobstr.co/trade/XLS:GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ">
-                Trade        
-            </a>
-        </div>
         </div>
     </header>
   )

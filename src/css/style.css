@@ -1018,6 +1018,12 @@ body.admin-bar .menu.is-scrolled {
 	transition: all 0.3s ease-out;
   }
 
+@media(max-width: 992px) {
+	.gatsby-image-wrapper {
+		margin: 0;
+	  }
+}
+
 @media(min-width:48em) {
 	.menu__inner {
 		max-width: 67rem;
@@ -3556,7 +3562,8 @@ button.swiper-pagination-bullet {
 	}
 	.right-pane img {
 		width: 300px!important;
-		height: auto!important;
+		height: 300px!important;
+		border-radius: 100%;
 		margin: 0 auto;
 	}
 	.gatsby-image-wrapper > div {
