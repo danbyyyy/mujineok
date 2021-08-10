@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header id="nav" className="menu">
         <div className="menu__inner">
-        <a href="https://kinsta.com/devkinsta/" className="menu__logo" rel="home" >
+        <a href="#" className="menu__logo" rel="home" >
                 <img src={logo} alt="logo" />
         </a>
     
