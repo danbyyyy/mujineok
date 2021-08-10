@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
                 
                 <ul>
-                    <li><a href="#"><img src={telegram} alt="telegram" /></a></li>
+                    <li><a href="https://t.me/stellarity"><img src={telegram} alt="telegram" /></a></li>
                     <li><a href="https://twitter.com/Stellarity_"><img src={twitter} alt="twitter" /></a></li>
                 </ul>
             </div>

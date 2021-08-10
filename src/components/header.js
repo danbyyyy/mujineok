@@ -15,7 +15,7 @@ const Header = () => {
     <header id="nav" className="menu">
         <div className="menu__inner">
         <a href="https://kinsta.com/devkinsta/" className="menu__logo" rel="home" >
-                <img src={logo} />
+                <img src={logo} alt="logo" />
         </a>
     
         <a href="#nav" id="nav-toggler" className="menu__nav__toggle" aria-hidden="true" onClick={openNav} >
@@ -30,8 +30,8 @@ const Header = () => {
                 <li className="menu-item menu-item-type-custom menu-item-object-custom"><a href="#contact-us">Contact us</a></li>
             </ul>
         </nav>
-        <div className="menu__extras">
-            <a className="menu__nav__a" href="https://kinsta.com/devkinsta/download/">
+        <div className="menu__extras">  
+            <a className="menu__nav__a" href="https://lobstr.co/trade/XLS:GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ">
                 Trade        
             </a>
         </div>
