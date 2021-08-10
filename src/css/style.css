@@ -3564,7 +3564,7 @@ button.swiper-pagination-bullet {
 		width: 300px!important;
 		height: 300px!important;
 		border-radius: 100%;
-		margin: 0 auto;
+		margin: 0 auto!important;
 	}
 	.gatsby-image-wrapper > div {
 		padding-bottom: 300px!important;
