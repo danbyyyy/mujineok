@@ -62,6 +62,7 @@ const Slider = ({ data }) => {
           <h2 className="tokens">Our Tokens</h2>
             <ul className="nav-dots" id="js-dots">
                 <li className="nav-dot" onClick={scrollToSection.bind(this)}></li>
+                <li className="nav-dot" onClick={scrollToSection.bind(this)}></li>
             </ul>
 
         <main id="main-section" className="main clearfix">

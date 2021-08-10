@@ -989,6 +989,11 @@ body.admin-bar .menu.is-scrolled {
 	color: #ee5057;
   }
 
+  .gatsby-image-wrapper {
+	margin: 100px 0 0 50px;
+	border-radius: 100%;
+  }
+
   .clearfix::after {
 	content: "";
 	clear: both;
