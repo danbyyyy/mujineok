@@ -1,7 +1,8 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
-"GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ"
+"GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ",
+"GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA"
 ]
 VERSION="2.0.0"
 
@@ -26,3 +27,17 @@ fixed_number=10000000
 max_number=10000000
 is_unlimited=false
 #XLS was issued using the open and inclusive Stellar blockchain network.
+
+
+[[CURRENCIES]]
+code="XLR"
+issuer="GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA"
+anchor_asset="false"
+name="Interstellar"
+desc="Interstellar is a new generation token based on Stellar blockchain technology, one of the most recommended platforms for crypto coins around the world. Interstellar focuses attention on the block-chain technology and eliminates the chance of fraud, censorship or third-party involvement. The blockchain is a public ledger that records cryptic transactions, an innovative solution that accomplishes this without any external regulating authority. Learn more about Stellarity at https://stellarity.org/"
+conditions="There will only ever be 10 million XLR tokens in existence"
+image="https://i.ibb.co/pfS3Mkt/interstellar.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#XLR was issued using the open and inclusive Stellar blockchain network.
