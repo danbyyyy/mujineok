@@ -2,7 +2,8 @@ NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
 "GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ",
-"GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA"
+"GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA",
+"GCJB7KEY5KFBZYEYJ524NODXSAMRN5Y6XM64BD7SF7ZWZICK7REB3DUF"
 ]
 VERSION="2.0.0"
 
@@ -41,3 +42,17 @@ fixed_number=10000000
 max_number=10000000
 is_unlimited=false
 #XLR was issued using the open and inclusive Stellar blockchain network.
+
+
+[[CURRENCIES]]
+code="XLX"
+issuer="GCJB7KEY5KFBZYEYJ524NODXSAMRN5Y6XM64BD7SF7ZWZICK7REB3DUF"
+anchor_asset="false"
+name="Stellarix"
+desc="Stellarix is a new DeFi token strongly enough to support complex trading schemes on an entirely decentralized network. XLX executes a number of unique technology innovations, which enable responsive trading of derivatives in a decentralized environment. Stellarix aims to create a freelance commerce to promote impeccable, risk-free integration between freelancers and buyers at minimal cost on the basis of QFS."
+conditions="There will only ever be 10 million XLX tokens in existence"
+image="https://i.ibb.co/CnJf2wZ/stellarix.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#XLX was issued using the open and inclusive Stellar blockchain network.
