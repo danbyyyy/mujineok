@@ -25,9 +25,10 @@ import ScrollAnimation from 'react-animate-on-scroll';
       sections.forEach((section, index) => {
         const half_window = window.innerHeight / 2;
         const section_top = section.offsetTop;
-  
-        if (scroll_position > section_top - half_window && scroll_position < section_top + half_window + rect.top + window.scrollY) {
+        console.log(index);
+        if (scroll_position > section_top - half_window && scroll_position < section_top + half_window + rect.top + window.scrollY && index < dots.length) {
           removeDotStyles();
+        
           dots[index].classList.add('is-active');
         }
       })
@@ -61,6 +62,7 @@ const Slider = ({ data }) => {
         <div className="slider-container" id="our-tokens">
           <h2 className="tokens">Our Tokens</h2>
             <ul className="nav-dots" id="js-dots">
+                <li className="nav-dot" onClick={scrollToSection.bind(this)}></li>
                 <li className="nav-dot" onClick={scrollToSection.bind(this)}></li>
                 <li className="nav-dot" onClick={scrollToSection.bind(this)}></li>
             </ul>

@@ -897,11 +897,113 @@ body.admin-bar .menu.is-scrolled {
 
 .partners-container h2,
 .slider-container .tokens,
+.team-section h2,
 .contact-block .contacts-heading {
     font-size: 2.5rem;
     line-height: 1.1;
     color: #fff;
 	text-align: center;
+}
+
+.img-wrapper img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.team-section h2 {
+	margin-top: 0;
+}
+
+.team-section .team-sub-section > div {
+	width: 50%;
+	padding: 0 30px;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.team-sub-section {
+	position: relative;
+}
+
+.team-sub-section .txt-wrapper {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.team-sub-section .name {
+	font-size: 27px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.team-sub-section .job {
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.team-sub-section .description {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.team-section .team-sub-section:nth-child(2n) > div {
+	float: left;
+	right: 0;
+}
+
+.team-section .team-sub-section:nth-child(2n+1) > div {
+	float: right;
+}
+
+@media only screen and (max-width: 768px) {
+	.team-section div:nth-child(2n) > div {
+		float: none;
+	}
+	
+	.team-section .team-sub-section:nth-child(2n+1) > div {
+		float: none;
+	}
+	.team-section .team-sub-section > div {
+		width: 100%;
+	}
+
+	.team-section .team-sub-section img {
+		margin-top: 60px;
+	}
+	.team-section .team-sub-section .name {
+		margin-top: 20px;
+	}
+
+	.team-sub-section .txt-wrapper {
+		position: static;
+		top: 0;
+		transform: none;
+	}
+
+
+}
+
+.team-section img {
+	display: block;
+	margin: 0 auto;
+}
+
+.team-section .team-sub-section {
+	margin-top: 80px;
+}
+
+.team-section .team-title {
+	padding: 0 60px;
+	text-align: center;
+	line-height: 1.8;
+	color: #fff;
+	font-size: 1.1rem;
 }
 
 .nav-dots {
@@ -4797,3 +4899,4 @@ ul.is-style-check-list>li:before {
 	font-size: .875rem;
 	text-align: left
 }
+

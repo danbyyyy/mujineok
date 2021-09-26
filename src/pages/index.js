@@ -7,6 +7,7 @@ import NewSlider from "../components/newSlider"
 import Contact from "../components/contact"
 import Footer from "../components/footer"
 import Lottie from "../components/Lottie"
+import Team from "../components/team"
 import "../css/style.css"
 import "../css/fontawesome.min.css"
 import "../css/animate.css"
@@ -22,6 +23,7 @@ const IndexPage = () => {
       <NewSlider />
       <Lottie />
       <Partners />
+      <Team />
       <Contact />
       <Footer />
       

@@ -1,6 +1,5 @@
 import * as React from "react";
 import telegram from "../images/telegram.png";
-import email from "../images/email.png";
 import twitter from "../images/twitter.png"
 import logo from "../images/logo.png";
 
