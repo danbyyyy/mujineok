@@ -3,7 +3,8 @@ NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 ACCOUNTS=[
 "GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ",
 "GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA",
-"GCJB7KEY5KFBZYEYJ524NODXSAMRN5Y6XM64BD7SF7ZWZICK7REB3DUF"
+"GCJB7KEY5KFBZYEYJ524NODXSAMRN5Y6XM64BD7SF7ZWZICK7REB3DUF",
+
 ]
 VERSION="2.0.0"
 
@@ -56,3 +57,17 @@ fixed_number=10000000
 max_number=10000000
 is_unlimited=false
 #XLX was issued using the open and inclusive Stellar blockchain network.
+
+
+[[CURRENCIES]]
+code="XLG"
+issuer="GDRARWQNWCALJOA4NYX4MUJWBCR45K3OG6CJXIZHKB4F66IN7K2SCH3N"
+anchor_asset="false"
+name="Galactus"
+desc="Galactus is an anonymous, privacy-based cryptocurrency. It presents itself as a branch of Monero by relying on the enhanced privacy features. Galactus also has features of its own. Thus, Galactus could initiate a new generation of anonymous currencies that would authorize the execution of decentralized and anonymous transactions."
+conditions="There will only ever be 10 million XLG tokens in existence"
+image="https://i.ibb.co/qR6NN5S/galactis.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#XLG was issued using the open and inclusive Stellar blockchain network.
