@@ -8,7 +8,7 @@ const Team = () => {
     return (
     <div className="team-section clearfix">
         <h2 className="title">Our team</h2>
-        <div className="team-title">The Stellarity team is composed of entrpreneurs and professionals from different countries,industries, and backgrounds, who are experienced and highly qualified. All coming together with the goal of bringing Stellarity services to all corners of the world.</div>
+        <div className="team-title">The Stellarity team is composed of entrepreneurs and professionals from different countries,industries, and backgrounds, who are experienced and highly qualified. All coming together with the goal of bringing Stellarity services to all corners of the world.</div>
         <div className="team-sub-section clearfix">
             <div className="img-wrapper">
                 <img src={person1} />
@@ -21,7 +21,7 @@ const Team = () => {
                     Co-Founder and CEO
                 </div>
                 <div className="description">
-                    Within his 15 year experience working with private institutions, John has received extensive knowledge of digital investigations, data engineering, algorithm design, security audits and forensic analysis. John accumulated a track record of building teams ground up and transforming existing teams to deliver exponential improvenemts.
+                    Within his 15 year experience working with private institutions, John has received extensive knowledge of digital investigations, data engineering, algorithm design, security audits and forensic analysis. John accumulated a track record of building teams ground up and transforming existing teams to deliver exponential improvements.
                 </div>
             </div>
              
