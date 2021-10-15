@@ -4,7 +4,8 @@ ACCOUNTS=[
 "GDERYRDAOITUY44PABGDBFUPYV4DDMYQZ5O3XX4FGBYIVOCN5NRXACXJ",
 "GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA",
 "GCJB7KEY5KFBZYEYJ524NODXSAMRN5Y6XM64BD7SF7ZWZICK7REB3DUF",
-"GDRARWQNWCALJOA4NYX4MUJWBCR45K3OG6CJXIZHKB4F66IN7K2SCH3N"
+"GDRARWQNWCALJOA4NYX4MUJWBCR45K3OG6CJXIZHKB4F66IN7K2SCH3N",
+"GC6LKYBF5X7RRJNQVBBV4DEJXWX2BCH3GFOQRBZBJAY5JON53JMAUQ2M"
 
 ]
 VERSION="2.0.0"
@@ -72,3 +73,17 @@ fixed_number=10000000
 max_number=10000000
 is_unlimited=false
 #XLG was issued using the open and inclusive Stellar blockchain network.
+
+
+[[CURRENCIES]]
+code="XLH"
+issuer="GC6LKYBF5X7RRJNQVBBV4DEJXWX2BCH3GFOQRBZBJAY5JON53JMAUQ2M"
+anchor_asset="false"
+name="Hydra"
+desc="HydraCap is a community that was originally founded to help people acquire their level of well-being. Nowadays, the social inequalities do frustrate more and more, and the Governments do nothing in order to help people’s needs. That said, one of the main narratives of digital currencies, including ours, is that they are decentralized. Hydra Tokens will assure that everyone has a part of our project and that every thought will be heard."
+conditions="There will only ever be 10 million XLH tokens in existence"
+image="https://i.ibb.co/cQQdqT1/hydra.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#XLH was issued using the open and inclusive Stellar blockchain network.
