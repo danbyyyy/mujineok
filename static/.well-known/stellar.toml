@@ -5,7 +5,8 @@ ACCOUNTS=[
 "GCG66QBAZJKYZY63QZW3JUYPPSYX6Z4HBPLZH2OLHMOXHQ4KENNBA7YA",
 "GCJB7KEY5KFBZYEYJ524NODXSAMRN5Y6XM64BD7SF7ZWZICK7REB3DUF",
 "GDRARWQNWCALJOA4NYX4MUJWBCR45K3OG6CJXIZHKB4F66IN7K2SCH3N",
-"GC6LKYBF5X7RRJNQVBBV4DEJXWX2BCH3GFOQRBZBJAY5JON53JMAUQ2M"
+"GC6LKYBF5X7RRJNQVBBV4DEJXWX2BCH3GFOQRBZBJAY5JON53JMAUQ2M",
+"GCERNR75ZI6YLGU2ELV5Z6JEXPHNPCPI7PBZYRMHFWKTCTU4CVUSVSDO"
 
 ]
 VERSION="2.0.0"
@@ -87,3 +88,17 @@ fixed_number=10000000
 max_number=10000000
 is_unlimited=false
 #XLH was issued using the open and inclusive Stellar blockchain network.
+
+
+[[CURRENCIES]]
+code="SQD"
+issuer="GCERNR75ZI6YLGU2ELV5Z6JEXPHNPCPI7PBZYRMHFWKTCTU4CVUSVSDO"
+anchor_asset="false"
+name="SQUID"
+desc="The Squid Game project is a new crypto project inspired by the Korean hit series on Netflix about a deadly tournament of children's games. SQD is aimed at promoting equality and prosperity which continues to be neglected due to neoliberal capitalism and its brutal realities. "
+conditions="There will only ever be 10 million SQD tokens in existence"
+image="https://i.ibb.co/NWjQQt1/logo-Squid-Games-01.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#SQD was issued using the open and inclusive Stellar blockchain network.
