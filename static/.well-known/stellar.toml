@@ -96,9 +96,9 @@ issuer="GCERNR75ZI6YLGU2ELV5Z6JEXPHNPCPI7PBZYRMHFWKTCTU4CVUSVSDO"
 anchor_asset="false"
 name="SQUID"
 desc="The Squid Game project is a new crypto project inspired by the Korean hit series on Netflix about a deadly tournament of children's games. SQD is aimed at promoting equality and prosperity which continues to be neglected due to neoliberal capitalism and its brutal realities. "
-conditions="There will only ever be 10 million SQD tokens in existence"
+conditions="There will only ever be 1 million SQD tokens in existence"
 image="https://i.ibb.co/NWjQQt1/logo-Squid-Games-01.png"
-fixed_number=10000000
-max_number=10000000
+fixed_number=1000000
+max_number=1000000
 is_unlimited=false
 #SQD was issued using the open and inclusive Stellar blockchain network.
